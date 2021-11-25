@@ -36,4 +36,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Product Preview
 
-![The following image shows the web application's appearance and functionality](./assets/images/)
+The following animation shows the web application's appearance and functionality:
+![portfolio demo](assets/demo.gif)
