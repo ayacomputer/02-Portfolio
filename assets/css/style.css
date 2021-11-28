@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Nunito:wght@200&family=Outfit:wght@100&display=swap');
+
+:root {
+ --darkColor: rgb(48, 44, 44);
+ --lightColor: rgb(235, 219, 219);
+ --themeColor: rgb(74, 211, 197);
+ --borderRadius: 1rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--darkColor);
+    font-size: 1.75rem;
+    font-family:'Nunito', 'Outfit', sans-serif;
+    text-align: center;
+}
+
+
+::selection {
+    background-color: hotpink;
+    color: var(--darkColor);
+  }
+
+h1 {
+    font-size: 4rem;
+    text-transform:uppercase;
+    color: var(--lightColor);
+    padding: 3rem;
+
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--themeColor);
+    font-family: 'Comforter', cursive, sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+header {
+    padding: 2rem;
+}
+
+main {
+
+}
+
+#navBar {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact, #mycontact {
+    font-size:1rem;
+      text-align: center;
+   padding-bottom: 5rem;
+   text-decoration: none;
+    color: wheat;
+  }
