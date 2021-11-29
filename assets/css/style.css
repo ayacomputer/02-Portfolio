@@ -2,9 +2,10 @@
 
 :root {
  --darkColor: rgb(48, 44, 44);
- --lightColor: rgb(235, 219, 219);
- --themeColor: rgb(74, 211, 197);
- --borderRadius: 1rem;
+ --lightColor: wheat;
+ --primeColor: rgb(74, 211, 197);
+ --secondColor: rgb(44, 104, 139);
+--borderRadius: 1rem;
 }
 
 html {
@@ -34,7 +35,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    color: var(--themeColor);
+    color: var(--primeColor);
     font-family: 'Comforter', cursive, sans-serif;
 }
 
@@ -44,14 +45,29 @@ h3 {
 
 header {
     padding: 2rem;
+    /* background-image: url ("https://images.pexels.com/photos/3860632/pexels-photo-3860632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 
-main {
+nav {
+    display: flex;
+    justify-content:center;
+}
+
+#navBar ul, li {
+    display:inline;
+    margin: 0;
+    padding: 0;
+
 
 }
 
-#navBar {
+.navButton a {
+    text-transform:uppercase;
+    text-decoration: none;
 }
+
+
+
 
 
 
