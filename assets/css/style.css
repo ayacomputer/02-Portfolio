@@ -5,7 +5,8 @@
  --lightColor: wheat;
  --primeColor: rgb(74, 211, 197);
  --secondColor: rgb(44, 104, 139);
---borderRadius: 1rem;
+ --primeBorder: dashed 2px var(--lightColor);
+ --borderRadius: 1rem;
 }
 
 html {
@@ -29,7 +30,7 @@ h1 {
     font-size: 4rem;
     text-transform:uppercase;
     color: var(--lightColor);
-    padding: 3rem;
+    padding: 5rem 3rem 2rem 3rem;
 
 }
 
@@ -50,7 +51,7 @@ header {
 
 nav {
     display: flex;
-    justify-content:center;
+    justify-content:right;
 }
 
 #navBar ul, li {
@@ -64,10 +65,26 @@ nav {
 .navButton a {
     text-transform:uppercase;
     text-decoration: none;
+    border: var(--primeBorder);
+    border-radius: var(--borderRadius);
+    padding: 0.5em;
+    color:var(--primeColor);
 }
 
+.navButton a:hover {
 
+}
 
+.container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.card {
+    border: var(--primeBorder);
+    
+}
 
 
 
