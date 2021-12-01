@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Nunito:wght@200&family=Outfit:wght@100&display=swap');
 
 :root {
- --darkColor: rgb(48, 44, 44);
+ --darkColor: rgb(32, 33, 36);
  --lightColor: wheat;
  --primeColor: rgba(150, 202, 27, 0.911);
  --secondColor: rgb(94, 86, 22);
@@ -38,7 +38,7 @@ h1 {
     font-size: 4rem;
     text-transform:uppercase;
     color: var(--lightColor);
-    padding: 5rem 3rem 2rem 3rem;
+    padding: 20rem 3rem 2rem 3rem;
 
 }
 
@@ -61,9 +61,8 @@ h3 {
 
 header {
     padding: 2rem;
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
-    padding: 2.5rem;
 }
 
 .profileCard {
@@ -76,16 +75,20 @@ header {
 #profileText {
 }
 
-nav {
+#navBar {
+    width: 100%;
+    margin-top: 0;
+    height: 10rem;
+    background-color:var(--darkColor);
+    position: fixed;
     display: flex;
-    justify-content: right;
+    /* justify-content: right; */
 }
 
 #navBar ul, li {
     display:inline;
     margin: 0;
     padding: 0;
-
 }
 
 .navButton a {
@@ -95,8 +98,6 @@ nav {
     border-radius: var(--borderRadius);
     padding: 0.5em;
     color:var(--primeColor);
-    /* doesn't work */
-    justify-content:space-between;
 }
 
 .navButton a:hover {
