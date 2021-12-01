@@ -9,22 +9,29 @@
  --borderRadius: 1rem;
 }
 
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background-color: var(--darkColor);
-    font-size: 1.75rem;
-    font-family:'Nunito', 'Outfit', sans-serif;
-    text-align: center;
-}
-
-
 ::selection {
     background-color: hotpink;
     color: var(--darkColor);
   }
+
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    font-family:'Nunito','Outfit', sans-serif;
+    background-color: var(--darkColor);
+    text-align: center;
+    color: var(--lightColor);
+}
+
+
+
 
 h1 {
     font-size: 4rem;
@@ -42,23 +49,31 @@ h2 {
 
 h3 {
     font-size: 2rem;
+    color: var(--primeColor);
+
 }
 
 header {
     padding: 2rem;
-    /* background-image: url ("https://images.pexels.com/photos/3860632/pexels-photo-3860632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    width: 96%;
+    margin: 0 auto;
+    padding: 2.5rem;
+}
+
+#profileImg {
+    border-radius: 50%;
+    width: 100px;
 }
 
 nav {
     display: flex;
-    justify-content:right;
+    justify-content: right;
 }
 
 #navBar ul, li {
     display:inline;
     margin: 0;
     padding: 0;
-
 
 }
 
@@ -69,13 +84,41 @@ nav {
     border-radius: var(--borderRadius);
     padding: 0.5em;
     color:var(--primeColor);
+    /* doesn't work */
+    justify-content:space-between;
 }
 
 .navButton a:hover {
-
+  box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
+  transition: all 0.5s ease-in-out;
 }
 
+.myLinks {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 1rem;
+
+}
+.myLinks:hover {
+    cursor:pointer;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
+
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 .container {
+    width:96%;
+    height: auto;
+    border: var(--primeBorder);
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
