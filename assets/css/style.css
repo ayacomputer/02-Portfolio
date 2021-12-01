@@ -6,6 +6,7 @@
  --primeColor: rgb(74, 211, 197);
  --secondColor: rgb(44, 104, 139);
  --primeBorder: dashed 2px var(--lightColor);
+ --secondBorder: solid 1px var(--lightColor);
  --borderRadius: 1rem;
 }
 
@@ -45,6 +46,11 @@ h2 {
     font-size: 3rem;
     color: var(--primeColor);
     font-family: 'Comforter', cursive, sans-serif;
+}
+
+hr {
+ border: var(--secondBorder);
+ width: 80%;
 }
 
 h3 {
@@ -117,16 +123,19 @@ main {
 
 .container {
     width:96%;
-    height: auto;
-    border: var(--primeBorder);
+    height: 100%;
+    border: solid 1px green;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
 }
 
 .card {
+    margin: 0.5em;
     border: var(--primeBorder);
-    
+    border-radius: var(--borderRadius);
+    height: 100%;
+
 }
 
 
