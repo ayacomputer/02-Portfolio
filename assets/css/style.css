@@ -32,8 +32,6 @@ body {
 }
 
 
-
-
 h1 {
     font-size: 4rem;
     text-transform:uppercase;
@@ -54,6 +52,7 @@ hr {
 }
 
 h3 {
+    display: block;
     font-size: 2rem;
     color: var(--primeColor);
 
@@ -65,19 +64,57 @@ header {
 }
 
 main {
-    margin: 5rem auto;
-    display: flex;
+    margin: 5rem;
+    /* display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; */
 }
+.aboutMeBox {
+    margin: 1rem;
+    padding: 1rem;
+    border:var(--primeBorder);
+    border-radius: var(--borderRadius);
+
+}
+
+.aboutMeBox:hover {
+    box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
+  transition: all 0.5s ease-in-out;
+}
+
+
 
 .profileCard {
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 #profileImg {
-    width: 200px;
+    width: 100%;
+}
+
+.profileCard-left {
+    width:100%;
+    flex-shrink: 1;
+}
+.profileCard-right {
+    padding:0.5em;
+    flex-direction: column;
+}
+
+#profileText {
+    line-height: 1.5;
+    padding: 4rem auto;
+    flex-shrink: 1.5;
+    
+}
+.profileCard-right-bottom {
+
+    margin-bottom: 2rem;
+    flex-shrink: 1;
+    justify-content: end;
 }
 
 #navBar {
@@ -115,21 +152,22 @@ li {
   transition: all 0.5s ease-in-out;
 }
 
+
 .myLinks, .mySkills {
     width: 3rem;
     height: 3rem;
     margin: 2rem 1rem;
 
 }
-.myLinks:hover {
+.myLinks:hover, .mySkills:hover{
     cursor:pointer;
     transform: scale(1.5);
     transition: all 0.5s ease-in-out;
 }
 
 
-
-.text1, .text2, .text3, .text4, .text5 {
+/* leaving this because I'd like to add tooltips in the future */
+/* .text {
     visibility: hidden;
     width: 3em;
     background-color:var(--primeColor);
@@ -139,28 +177,14 @@ li {
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-  }
+  }  
 
-#mySkill1:hover .text1 {
+.mySkills:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
     cursor:pointer;
-    visibility: visible;
-} 
-#mySkill2:hover .text2 {
-    cursor:pointer;
-    visibility: visible;
-} 
-#mySkill3:hover .text3 {
-    cursor:pointer;
-    visibility: visible;
-} 
-#mySkill4:hover .text4 {
-    cursor:pointer;
-    visibility: visible;
-} 
-#mySkill5:hover .text5 {
-    cursor:pointer;
-    visibility: visible;
-} 
+    visibility: visible; 
+} */
 
 
 .container {
@@ -170,16 +194,11 @@ li {
 }
 
 .cardHeader {
-    border: var(--primeBorder);
-    border-bottom-style: none;
-    border-radius: var(--borderRadius);
     padding: 0.5em;
     color:var(--primeColor);
 }
 .card {
     margin: 0.5em;
-    border: var(--primeBorder);
-    border-radius: var(--borderRadius);
     /* height: 100%; */
 
 }
@@ -201,9 +220,7 @@ li {
 }
 
 .profileCard {
-    border:var(--primeBorder);
-    border-top-style: none;
-    border-radius: var(--borderRadius);
+    
 }
 .projectCard {
     margin: 0.5rem;
