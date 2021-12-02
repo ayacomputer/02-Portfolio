@@ -72,13 +72,13 @@ main {
 }
 .aboutMeBox {
     margin: 1rem;
-    padding: 1rem;
     border:var(--primeBorder);
     border-radius: var(--borderRadius);
 
 }
 
 .aboutMeBox:hover {
+    padding:2rem;
     box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
   transition: all 0.5s ease-in-out;
 }
@@ -108,10 +108,10 @@ main {
     line-height: 1.5;
     padding: 4rem auto;
     flex-shrink: 1.5;
-    
+    height: 60%;  
 }
 .profileCard-right-bottom {
-
+    
     margin-bottom: 2rem;
     flex-shrink: 1;
     justify-content: end;
@@ -204,7 +204,12 @@ li {
 }
 .projectImg {
     width:80%;
-    height: 50%;
+    object-fit:cover;
+    object-position: top;
+    border-radius: var(--borderRadius);
+}
+#projectImgBig {
+    width: 80%;
     object-fit:cover;
     object-position: top;
     border-radius: var(--borderRadius);
@@ -216,18 +221,34 @@ li {
     flex-wrap: wrap;
 }
 #project1 {
-    width:100%;
+    width: 97%;
 }
 
 .profileCard {
     
 }
+
+.containerBody {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .projectCard {
-    margin: 0.5rem;
+    margin: 1.5rem;
     border:var(--primeBorder);
     border-radius: var(--borderRadius);
-    width:49%;
+    width: 47%;
 }
+
+
+
+
+
+
+
+
+
+
 
 .andMore {
    font-style:italic;
