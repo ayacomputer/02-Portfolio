@@ -90,6 +90,8 @@ main {
 
 #profileImg {
     width: 100%;
+
+}
 }
 
 .profileCard-left {
@@ -103,9 +105,11 @@ main {
 
 #profileText {
     line-height: 1.5;
-    padding: 4rem auto;
+    padding: 2rem;
     flex-shrink: 1.5;
     height: 60%;  
+    display: grid;
+    place-items: center;
 }
 .profileCard-right-bottom {
     
@@ -186,7 +190,6 @@ li {
 
 .container {
     width:96%;
-    border: solid 1px green;
 }
 
 .cardHeader {
@@ -270,5 +273,43 @@ li {
     .projectCard {
     width:100%;
     }
+
+    #profileText {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+         
+}
+
+
+@media screen and (max-width:480px) {
+
+    body {
+        font-size:1.5rem;
+    }
+    .containerBody {
+        justify-content: center;
+    }
+    
+    .projectCard {
+    width:100%;
+    }
+
+    .profileCard {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #profileText {
+        font-size:1.5rem;
+        overflow: auto;
+    }
+
+    .profileCard-left {
+
+    }
+
+
          
 }
