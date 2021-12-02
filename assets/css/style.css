@@ -218,11 +218,11 @@ li {
 
 #myProjects {
     display:flex;
-    justify-content: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 #project1 {
-    width: 97%;
+    width: 95%;
 }
 
 
@@ -230,9 +230,8 @@ li {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around
-    justify-content: center;
-    
+    justify-content: space-around;
+
 }
 .projectCard {
     margin: 1.5rem;
@@ -263,6 +262,10 @@ li {
 
 
   @media screen and (max-width:900px) {
+
+    .containerBody {
+        justify-content: center;
+    }
     
     .projectCard {
     width:100%;
