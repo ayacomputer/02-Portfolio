@@ -224,9 +224,6 @@ li {
     width: 97%;
 }
 
-.profileCard {
-    
-}
 
 .containerBody {
     display:flex;
@@ -238,6 +235,11 @@ li {
     border:var(--primeBorder);
     border-radius: var(--borderRadius);
     width: 47%;
+}
+
+.projectCard:hover {
+    box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
+    transition: all 0.5s ease-in-out;
 }
 
 
