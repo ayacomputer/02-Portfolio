@@ -64,8 +64,9 @@ header {
 }
 
 main {
-    margin: 5rem;
+     margin: 5rem; 
 }
+
 .aboutMeBox {
     margin: 1rem;
     border:var(--primeBorder);
@@ -185,7 +186,6 @@ li {
 
 .container {
     width:96%;
-    /* height: 100%; */
     border: solid 1px green;
 }
 
@@ -195,9 +195,14 @@ li {
 }
 .card {
     margin: 0.5em;
-    /* height: 100%; */
+  
 
 }
+
+.projectHeader {
+    margin-top: inherit;
+}
+
 .projectImg {
     width:80%;
     object-fit:cover;
@@ -225,12 +230,15 @@ li {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around
+    justify-content: center;
+    
 }
 .projectCard {
     margin: 1.5rem;
     border:var(--primeBorder);
     border-radius: var(--borderRadius);
-    width: 47%;
+    width: 45%;
 }
 
 .projectCard:hover {
@@ -252,13 +260,12 @@ li {
     color: wheat;
   }
 
-  @media screen and (max-width:400px) {
-
-  }
 
 
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:900px) {
     
-    
+    .projectCard {
+    width:100%;
+    }
          
 }
