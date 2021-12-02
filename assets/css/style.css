@@ -15,7 +15,7 @@
     color: var(--darkColor);
   }
 
-
+:target {padding-top: 10rem;}
 
 html {
     font-size: 62.5%;
@@ -60,9 +60,16 @@ h3 {
 }
 
 header {
-    padding: 2rem;
     width: 100%;
     margin: 0 auto;
+}
+
+main {
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .profileCard {
@@ -72,31 +79,34 @@ header {
 #profileImg {
     width: 200px;
 }
-#profileText {
-}
 
 #navBar {
     width: 100%;
-    margin-top: 0;
-    height: 10rem;
+    height: 7rem;
     background-color:var(--darkColor);
-    position: fixed;
     display: flex;
-    /* justify-content: right; */
+    position: fixed;
+    justify-content: right;
 }
 
-#navBar ul, li {
+#navBar ul {
+    margin: 0 1rem;
+}
+
+li {
     display:inline;
     margin: 0;
     padding: 0;
 }
 
 .navButton a {
+    line-height: 7.2rem;
     text-transform:uppercase;
     text-decoration: none;
     border: var(--primeBorder);
     border-radius: var(--borderRadius);
     padding: 0.5em;
+    margin-right: 0.5rem;
     color:var(--primeColor);
 }
 
@@ -105,7 +115,7 @@ header {
   transition: all 0.5s ease-in-out;
 }
 
-.myLinks {
+.myLinks, .mySkills {
     width: 3rem;
     height: 3rem;
     margin: 2rem 1rem;
@@ -118,13 +128,39 @@ header {
 }
 
 
-main {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
+
+.text1, .text2, .text3, .text4, .text5 {
+    visibility: hidden;
+    width: 3em;
+    background-color:var(--primeColor);
+    color:var(--lightColor);
+    text-align: center;
+    border-radius:var(--borderRadius);
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+#mySkill1:hover .text1 {
+    cursor:pointer;
+    visibility: visible;
+} 
+#mySkill2:hover .text2 {
+    cursor:pointer;
+    visibility: visible;
+} 
+#mySkill3:hover .text3 {
+    cursor:pointer;
+    visibility: visible;
+} 
+#mySkill4:hover .text4 {
+    cursor:pointer;
+    visibility: visible;
+} 
+#mySkill5:hover .text5 {
+    cursor:pointer;
+    visibility: visible;
+} 
 
 
 .container {
@@ -133,6 +169,13 @@ main {
     border: solid 1px green;
 }
 
+.cardHeader {
+    border: var(--primeBorder);
+    border-bottom-style: none;
+    border-radius: var(--borderRadius);
+    padding: 0.5em;
+    color:var(--primeColor);
+}
 .card {
     margin: 0.5em;
     border: var(--primeBorder);
@@ -143,6 +186,8 @@ main {
 .projectImg {
     width:80%;
     height: 50%;
+    object-fit:cover;
+    object-position: top;
     border-radius: var(--borderRadius);
 }
 
@@ -151,20 +196,26 @@ main {
     justify-content: row;
     flex-wrap: wrap;
 }
+#project1 {
+    width:100%;
+}
 
 .profileCard {
     border:var(--primeBorder);
+    border-top-style: none;
     border-radius: var(--borderRadius);
 }
 .projectCard {
+    margin: 0.5rem;
     border:var(--primeBorder);
     border-radius: var(--borderRadius);
     width:49%;
-    /* height: auto; */
 }
 
-.italic {
+.andMore {
    font-style:italic;
+   text-align: right;
+   padding: 2rem;
 }
 
 
