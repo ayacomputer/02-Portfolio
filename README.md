@@ -14,7 +14,7 @@ Link: https://ayacomputer.github.io/02-Portfolio/
 The following images show the web application's appearance and functionality:
 ```
 ### Full size captured image
-![PC view](./assets/computer.png)
+![PC view](./assets/productPC.png)
 
 ### Mobile view
-![mobile view](./assets/mobile.png)
+![mobile view](./assets/productMobile.png)
