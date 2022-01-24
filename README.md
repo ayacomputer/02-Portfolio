@@ -1,7 +1,7 @@
 # Professional Portfolio
 
 ## About 
-This is my first portfolio website using HTML and responsive CSS.
+This is my portfolio using HTML and responsive CSS.
  (flexbox, media queries, and CSS variables)
 
 
