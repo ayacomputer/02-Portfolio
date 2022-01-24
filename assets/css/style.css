@@ -204,29 +204,41 @@ li {
 }
 
 .projectImg {
+    margin:1em;
     width:80%;
-    height: 65%;
+    height: 60%;
     border: var(--secondBorder);
     object-fit:cover;
     object-position: top;
     border-radius: var(--borderRadius);
 }
+
+#project1 {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 #projectImgBig {
-    width: 80%;
-    height: 50%;
-    object-fit:cover;
-    object-position: top;
+    margin: 3rem;
+    width: 35%;
+    border: var(--secondBorder);
     border-radius: var(--borderRadius);
 }
 
-#myProjects {
-    display:flex;
+#project1-right {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem;
 }
-#project1 {
-    width: 95%;
-}
+
+
+
+
 
 
 .containerBody {
@@ -236,6 +248,7 @@ li {
     justify-content: space-around;
 
 }
+
 .projectCard {
     margin: 1.5rem;
     border:var(--primeBorder);
@@ -248,6 +261,9 @@ li {
     transition: all 0.5s ease-in-out;
 }
 
+.comment {
+    margin: 1em;
+}
 .andMore {
    font-style:italic;
    text-align: right;
@@ -296,6 +312,15 @@ li {
     width:100%;
     }
 
+    #project1 {
+        font-size:1rem;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #projectImgBig { 
+        margin: 0 auto;
+    }
     .profileCard {
         flex-direction: column;
         justify-content: space-between;
