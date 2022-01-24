@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Nunito:wght@200&family=Outfit:wght@100&family=Righteous&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -28,11 +31,10 @@
                     <a href="#myContact">Contact</a>
                 </li>
                 <li class="navButton">
-                    <a href="./assets/resume.pdf">Resume</a>
+                    <a href="./assets/ayakowoollan.pdf">Resume</a>
                 </li>
 
             </ul>
-
 
         </nav>
         <h1>Ayako Woollan</h1>
@@ -44,10 +46,10 @@
     </header>
 
     <main>
-        <section id="aboutMe" class="container">
-            <div class="aboutMeBox">
+        <div id="aboutMe" class="container">
+            <fieldset class="aboutMeBox">
 
-                <h3 class="cardHeader">ABOUT</h3>
+                <legend class="cardHeader">ABOUT</legend>
 
 
                 <div class="profileCard">
@@ -104,18 +106,17 @@
 
 
 
-            </div>
+            </fieldset>
 
 
-        </section>
+        </div>
 
         <section id="myProjects" class="container">
 
 
 
-            <div id="project1" class="projectCard">
-                <h3 class="cardHeader">PROJECT</h3>
-                <h4 class="projectHeader">Event Finder</h4>
+            <fieldset id="project1" class="projectCard">
+                <legend class="cardHeader">Event Finder</legend>
                 <img id="projectImgBig" src="./assets/screen-shots/event-finder.png" alt="A photo of Event Finder">
 
 
@@ -132,12 +133,14 @@
                 </ul>
                 <p><strong>HTML, CSS, Vanilla Javascript, Bulma (CSS framework), APIs</strong></p>
                 <p>This is my first team project.</p>
-            </div>
+            </fieldset>
 
 
             <div class="containerBody">
-                <div id="project2" class="projectCard">
-                    <h4 class="projectHeader">Weather Dashboard</h4>
+                <fieldset id="project2" class="projectCard">
+                    <legend class="projectHeader">
+                        <h4>Weather Dashboard</h4>
+                    </legend>
                     <img class="projectImg" src="./assets/screen-shots/weatherDashboard.png"
                         alt="A photo of Weather Dashboard">
                     <ul>
@@ -153,27 +156,31 @@
                     </ul>
                     <p>HTML, CSS, Javascript, moment.js, Open Weather API</p>
 
-                </div>
-                <div id="project3" class="projectCard">
-                    <h4 class="projectHeader">Coding Quiz</h4>
+                </fieldset>
+                <fieldset id="project3" class="projectCard">
+                    <legend class="projectHeader">
+                        <h4>Coding Quiz</h4>
+                    </legend>
                     <img class="projectImg" src="./assets/screen-shots/CodeQuiz.gif" alt="A photo of the survey form">
                     <ul>
                         <li>
-                            <a href="https://github.com/ayacomputer"><img class="myLinks"
+                            <a href="https://github.com/ayacomputer/04-Code-Quiz"><img class="myLinks"
                                     src="./assets/icons/gitHub.png" alt="GitHub icon"></a>
                         </li>
                         <li>
-                            <a href="https://github.com/ayacomputer"><img class="myLinks" src="./assets/icons/PC.png"
-                                    alt="PC icon"></a>
+                            <a href="https://ayacomputer.github.io/04-Code-Quiz"><img class="myLinks"
+                                    src="./assets/icons/PC.png" alt="PC icon"></a>
                         </li>
 
                     </ul>
                     <p>Javascript (coming soon...)</p>
 
-                </div>
+                </fieldset>
 
-                <div id="project4" class="projectCard">
-                    <h4 class="projectHeader">Day Planner</h4>
+                <fieldset id="project4" class="projectCard">
+                    <legend class="projectHeader">
+                        <h4>Day Planner</h4>
+                    </legend>
                     <img class="projectImg" src="./assets/screen-shots/dayPlanner.gif"
                         alt="An animation of Day Planner">
 
@@ -190,10 +197,12 @@
 
                     </ul>
                     <p><strong>Local storage</strong></p>
-                </div>
+                </fieldset>
 
-                <div id="project5" class="projectCard">
-                    <h4 class="projectHeader">Password Generator</h4>
+                <fieldset id="project5" class="projectCard">
+                    <legend class="projectHeader">
+                        <h4>Password Generator</h4>
+                    </legend>
                     <img class="projectImg" src="./assets/screen-shots/passwordGenerator.png"
                         alt="A photo of password generator">
                     <ul>
@@ -208,7 +217,7 @@
                     </ul>
                     <p><Strong>HTML, CSS, Javascript</Strong></p>
 
-                </div>
+                </fieldset>
 
 
 
@@ -234,7 +243,7 @@
 </body>
 <footer>
     <section id="myContact">
-        <h3 class="cardHeader">CONTACT ME</h3>
+        <h3 class="contactMe">CONTACT ME</h3>
         <ul id="links">
             <li>
                 <a href="mailto:ayako.woollan@gmail.com"><img class="myLinks" src="./assets/icons/email.png"
