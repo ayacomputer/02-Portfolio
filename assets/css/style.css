@@ -2,7 +2,7 @@
  --darkColor: rgb(32, 33, 36);
  --lightColor: wheat;
  --primeColor: rgba(150, 202, 27, 0.911);
- --secondColor: rgb(94, 86, 22);
+ --secondColor:  rgba(223, 100, 78, 0.911);
  --primeBorder: dashed 2px var(--lightColor);
  --secondBorder: solid 1px var(--lightColor);
  --borderRadius: 1rem;
@@ -195,6 +195,7 @@ li {
     margin: 0.5em;
 }
 .cardHeader, .projectHeader {
+    border-radius: var(--borderRadius);
     color: var(--primeColor);
     margin-top: inherit;
     background-color: var(--darkColor);
@@ -257,6 +258,7 @@ li {
 }
 
 .projectCard:hover {
+    background-color: var(--secondColor);
     box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
     transition: all 0.5s ease-in-out;
 }
