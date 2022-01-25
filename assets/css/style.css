@@ -80,6 +80,10 @@ main {
   transition: all 0.5s ease-in-out;
 }
 
+.aboutMeBox:hover .cardHeader {
+  box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
+  transition: all 0.5s ease-in-out;
+}
 
 
 .profileCard {
@@ -166,6 +170,8 @@ li {
 }
 
 
+
+
 /* leaving this because I'd like to add tooltips in the future */
 /* .text {
     visibility: hidden;
@@ -200,9 +206,10 @@ li {
     margin-top: inherit;
     background-color: var(--darkColor);
     padding: 0.5em 1em;
-    /* border: var(--primeBorder);
-    border-radius: var(--borderRadius); */
+    border: var(--primeBorder);
+    border-radius: var(--borderRadius);
 }
+
 
 .projectImg {
     margin:1em;
@@ -212,6 +219,7 @@ li {
     object-fit:cover;
     object-position: top;
     border-radius: var(--borderRadius);
+    flex-shrink: 1;
 }
 
 #project1 {
@@ -258,7 +266,17 @@ li {
 }
 
 .projectCard:hover {
-    background-color: var(--secondColor);
+    background-color: rgba(241, 73, 7, 0.61);
+    box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
+    transition: all 0.5s ease-in-out;
+}
+
+.projectCard:hover .cardHeader {
+    box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
+    transition: all 0.5s ease-in-out;
+}
+
+.projectCard:hover .projectHeader {
     box-shadow: inset 0px 0px 8px var(--primeColor), 0 0 15px var(--primeColor);
     transition: all 0.5s ease-in-out;
 }
@@ -279,6 +297,7 @@ li {
    text-decoration: none;
     color: wheat;
   }
+
 
 
 
