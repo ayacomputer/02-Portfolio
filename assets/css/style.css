@@ -6,6 +6,7 @@
  --primeBorder: dashed 2px var(--lightColor);
  --secondBorder: solid 1px var(--lightColor);
  --borderRadius: 1rem;
+ --mobileBorder: dashed 0.5px var(--lightColor);
 }
 
 ::selection {
@@ -95,7 +96,6 @@ main {
 
 #profileImg {
     width: 100%;
-
 }
 
 .profileCard-left {
@@ -301,14 +301,23 @@ li {
 @media screen and (max-width:480px) {
 
     body {
-        font-size:1.5rem;
+        font-size:1rem;
     }
     .containerBody {
         justify-content: center;
     }
     
+    .profileCard {
+        width:100%;
+        display: flex;
+        flex-direction: column;    
+        justify-content: space-between;
+     }
     .projectCard {
     width:100%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
     }
 
     #project1 {
@@ -324,6 +333,12 @@ li {
         flex-direction: column;
         justify-content: space-between;
     }
+
+
+
+#profileImg {
+    width:80%;
+}
     
     #profileText {
         font-size:1.5rem;
