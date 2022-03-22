@@ -32,7 +32,7 @@
  ## About The Project
 
 
- ![ProductScreen Shot](./assets/product.gif)
+ ![ProductScreen Shot](./assets/productPC.gif)
 
 
 This is my first professional portfolio using HTML5 and responsive CSS. (flexboz, media queries, and CSS variables)
@@ -48,15 +48,10 @@ This is my first professional portfolio using HTML5 and responsive CSS. (flexboz
 
 ## Usage
 
-  Following image shows this application's functionality(questions).
-
-![PC view](./assets/screen-shots/productPC.png)
+  Following image shows this application's functionality.
 
 ## Full size captured image
 ![PC view](./assets/screen-shots/productPC.png)
-
-## Animation
-![PC view](./assets/screen-shots/productPC.gif)
 
 ## Mobile view
 ![mobile view](./assets/screen-shots/productMobile.gif)
