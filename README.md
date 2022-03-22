@@ -15,5 +15,8 @@ The following animation and images show the web application's appearance and fun
 ## Full size captured image
 ![PC view](./assets/screen-shots/productPC.png)
 
+## Animation
+![PC view](./assets/screen-shots/productPC.gif)
+
 ## Mobile view
-![mobile view](./assets/screen-shots/productMobile.png)
+![mobile view](./assets/screen-shots/productMobile.gif)
