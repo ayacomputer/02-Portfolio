@@ -32,7 +32,7 @@
  ## About The Project
 
 
- ![ProductScreen Shot](./assets/productPC.gif)
+ ![ProductScreen Shot](./assets/screen-shots/productPC.gif)
 
 
 This is my first professional portfolio using HTML5 and responsive CSS. (flexboz, media queries, and CSS variables)
