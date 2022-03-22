@@ -13,7 +13,7 @@
     color: var(--darkColor);
   }
 
-:target {padding-top: 10rem;}
+:target {padding-top: 8rem;}
 
 html {
     font-size: 62.5%;
@@ -170,29 +170,6 @@ li {
 }
 
 
-
-
-/* leaving this because I'd like to add tooltips in the future */
-/* .text {
-    visibility: hidden;
-    width: 3em;
-    background-color:var(--primeColor);
-    color:var(--lightColor);
-    text-align: center;
-    border-radius:var(--borderRadius);
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-  }  
-
-.mySkills:hover {
-    transform: scale(1.5);
-    transition: all 0.5s ease-in-out;
-    cursor:pointer;
-    visibility: visible; 
-} */
-
-
 .container {
     width:96%;
 }
@@ -223,7 +200,7 @@ li {
 }
 
 #project1 {
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 95%;
     display: flex;
     flex-direction: row;
