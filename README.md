@@ -31,10 +31,7 @@
 
  ## About The Project
 
-
- <p align ="center">
  ![ProductScreen Shot](./assets/screen-shots/productPC.gif)
- </>
 
 
 This is my first professional portfolio using HTML5 and responsive CSS. (flexboz, media queries, and CSS variables)
@@ -53,14 +50,11 @@ This is my first professional portfolio using HTML5 and responsive CSS. (flexboz
   Following image shows this application's functionality.
 
 ## Full size captured image
-<p align ="center">
+
  ![PC view](./assets/screen-shots/productPC.png)
-</>
 
 ## Mobile view
-<p align ="center">
  ![mobile view](./assets/screen-shots/productMobile.gif)
-</>
 
 <p align ="right">(<a href="#top">back to top</a>)</>
 
