@@ -324,10 +324,12 @@ li {
     }
 
     #project1 {
-        font-size:1rem;
-        margin: 0 auto;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .explanation, .comment {
+        font-size:1rem;
     }
     #projectImgBig { 
         margin: 1rem auto;

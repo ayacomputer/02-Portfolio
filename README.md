@@ -12,9 +12,6 @@ Link: https://ayacomputer.github.io/02-Portfolio/
 
 The following animation and images show the web application's appearance and functionality:
 
-## Animation
-![animation](./assets/screen-shots/ayakowoollan.gif)
-
 ## Full size captured image
 ![PC view](./assets/screen-shots/productPC.png)
 
