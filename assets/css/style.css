@@ -6,7 +6,6 @@
  --primeBorder: dashed 2px var(--lightColor);
  --secondBorder: solid 1px var(--lightColor);
  --borderRadius: 1rem;
- --mobileBorder: dashed 0.5px var(--lightColor);
 }
 
 ::selection {
@@ -23,6 +22,7 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     font-size: 1.75rem;
     line-height: 1.5;
     font-family:'Nunito','Outfit', sans-serif;
@@ -190,7 +190,7 @@ li {
 
 
 .projectImg {
-    margin:1em;
+    margin:1em auto;
     width:80%;
     height: 60%;
     border: var(--secondBorder);
@@ -209,7 +209,7 @@ li {
     align-items: center;
 }
 #projectImgBig {
-    margin: 3rem;
+    margin: 3rem auto;
     width: 35%;
     border: var(--secondBorder);
     border-radius: var(--borderRadius);
@@ -299,9 +299,12 @@ li {
 
 
 @media screen and (max-width:480px) {
+    :root {
+        --primeBorder: dashed 0.5px var(--lightColor);
+    }
 
     body {
-        font-size:1rem;
+        font-size:1.5rem;
     }
     .containerBody {
         justify-content: center;
@@ -327,23 +330,33 @@ li {
         justify-content: center;
     }
     #projectImgBig { 
-        margin: 0 auto;
+        margin: 1rem auto;
+        width: 75%;
+        
     }
     .profileCard {
         flex-direction: column;
         justify-content: space-between;
     }
 
-
-
+    #navBar ul {
+        margin: 0 auto;
+    }
+    .aboutMeBox {
+        width: auto;
+    }
 #profileImg {
     width:80%;
 }
     
     #profileText {
-        font-size:1.5rem;
+        font-size:1rem;
         overflow: auto;
     }
-
+    .myLinks, .mySkills {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 1rem 0.5rem;
+    }
          
 }
