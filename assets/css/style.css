@@ -209,7 +209,7 @@ li {
     align-items: center;
 }
 #projectImgBig {
-    margin: 3rem auto;
+    margin: 3rem;
     width: 35%;
     border: var(--secondBorder);
     border-radius: var(--borderRadius);
