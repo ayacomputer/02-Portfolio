@@ -47,7 +47,7 @@ This is my first professional portfolio using HTML5 and responsive CSS. (flexbox
 
 ## Usage
 
-  Following image shows this application's functionality.
+  Following image shows this application's functionality.<br>
   [Click here to view deployed application](https://ayacomputer.github.io/02-Portfolio/)
 
 ## Full size captured image
