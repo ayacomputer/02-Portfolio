@@ -34,7 +34,7 @@
  ![ProductScreen Shot](./assets/screen-shots/productPC.gif)
 
 
-This is my first professional portfolio using HTML5 and responsive CSS. (flexboz, media queries, and CSS variables)
+This is my first professional portfolio using HTML5 and responsive CSS. (flexbox, media queries, and CSS variables)
 
 <p align = "right">(<a href="#top">back to top</a>)</>
 
